@@ -1,0 +1,1 @@
+{"ts":1356485614211,"silentsave":true,"restoring":false,"patch":[[{"diffs":[[1,"// Retrieve\nvar MongoClient = require('mongodb').MongoClient;\n\n// Connect to the db\nMongoClient.connect(\"mongodb://localhost:27017/exampleDb\", function(err, db) {\n  if(!err) {\n    console.log(\"We are connected\");\n  }\n});"]],"start1":0,"start2":0,"length1":0,"length2":220}]],"length":220}
